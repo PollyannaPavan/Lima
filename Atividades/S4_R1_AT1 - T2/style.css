@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc2d6;
+    color: #bd548c;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 30px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    color: #f381b2;
+}
+
+header p {
+    color: #bd548c;
+}
+
+
+.logo {
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+nav {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #bd548c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #f381b2;
+}
+
+
+#procedimentos {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#procedimentos h2 {
+    width: 100%;
+    color: #f381b2;
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+#procedimentos > p {
+    width: 100%;
+}
+
+
+#procedimentos article {
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#procedimentos article img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#procedimentos article h3 {
+    color: #bd548c;
+}
+
+
+#agenda {
+    padding: 50px 20px;
+}
+
+#agenda h2 {
+    color: #f381b2;
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+#agenda aside {
+    background-color: white;
+    width: 350px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+
+#agenda li {
+    color: #bd548c;
+    list-style-type: disc;
+    text-align: left;
+    margin: 10px;
+}
+
+
+#contato {
+    padding: 50px 20px;
+}
+
+#contato h2 {
+    color: #f381b2;
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+#contato aside {
+    background-color: white;
+    width: 400px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+#contato li {
+    color: #bd548c;
+    list-style-type: disc;
+    text-align: left;
+    margin: 10px;
+}
+
+
+footer {
+    background-color: #f381b2;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
