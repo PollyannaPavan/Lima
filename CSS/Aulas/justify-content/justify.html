@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Content</title>
+    <style>
+        .navbar-gamer{
+            /* Ligando o flexbox no conainer */
+            display: flex;
+            background: #a5226a;
+            /* Centralizar o elemeno na vertical */
+            align-items: center;
+            padding: 10px 24px;
+            height: 50px;
+            /* Adiciona os elementos nas pontas */
+            justify-content: space-between;
+        }
+        .menu-links{
+            display: flex;
+            /* Criar espaço entre os elementos */ 
+            gap: 20px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        div{
+            color: white;
+        }
+
+        .meio-centralizado {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+        background-color: #e99dd6;
+        border-radius: 10px;
+
+        margin: 200px auto
+        
+
+
+    </style>
+</head>
+<body>
+    <header class="navbar-gamer">
+        <div class="logo">DEV.GAMES</div>
+        <nav class="menu-links">
+            <a href="">Início</a> 
+            <a href="">Catálogo</a> 
+            <a href="">Perfil</a>
+        </nav>
+    </header>
+    <div class="meio-centralizado">
+      <h1>Pollyanna</h1>
+      
+    </div>
+    
+    
+</body>
+</html>

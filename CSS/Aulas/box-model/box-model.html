@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .cupom-gamer{
+            /* Delimitar a largura máxima */
+            width: 320px;
+            height: 150px;
+            background-color: pink;
+            /* 20px cima/baixo e 30px direita/esquerda */
+            padding: 20px 30px;
+            /* A extremidade da bo model */
+            border: 2px dashed purple;
+            /* dashed - tracejado, solid - linha, dotted - bolinhas */
+            /* A distancia em relação as outras tags */
+            margin: 25px auto; 
+        }
+        .btn-gamer{
+            /* Permite que o link aceite on padding e largura com segurança */
+            display: inline-block;
+            background-color: #6c5ce7;
+            color: white;
+            /* Retira o sublinhado do link */
+            text-decoration: none;
+            /* 14px em cima/baixo e 28px nas lateais */
+            padding: 14px 28px;
+            /* Arredondar aos cantos */
+            border-radius: 20px;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            }
+        .btn-gamer:hover{
+            /* Esmaecer o botão */
+            background-color: #000000;
+            /* Flutuar o botão 2px para baixo */
+            transform: translateY(-2px);
+        }
+        .btn-gamer:active{
+            transform: translateY(2px);
+        }
+        .btn-gamer{
+            background: linear-gradient(to top, rgb(216, 99, 196), rgb(230, 171, 230));
+        }
+        .btn-secundario{
+            cursor: pointer;
+            padding: 14px 28px;
+            border-radius: 20px;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            background-color: transparent;
+            cursor: pointer;
+            color: pink;
+            border: 2px dotted purple;
+            transition: all 0.2s ease;
+            &:hover{
+                transform: translateY(-3px);
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <a href="" class="btn-gamer">Iniciar Partida</a>
+    <button class="btn-secundario">Configurações</button>
+    <div class="cupom-gamer">
+        <h3>
+        Cupom: DEV100
+        </h3>
+        <P>
+            Deconto liberado na loja!
+        </P>
+    </div>
+</body>
+</html>
+
